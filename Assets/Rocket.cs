@@ -10,6 +10,7 @@ public class Rocket : MonoBehaviour
     [SerializeField] AudioClip mainEngine;
     [SerializeField] AudioClip success;
     [SerializeField] AudioClip death;
+    [Range(2, 5)][SerializeFiled] int startingLives;
 
     Rigidbody rigidBody;
     AudioSource audioSource;
